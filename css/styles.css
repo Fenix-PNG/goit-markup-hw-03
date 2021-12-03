@@ -307,7 +307,7 @@ a[href="tel:+380961111111"] {
   margin-bottom: 34px;
 }
 
-.filter-list:nth-child(-n+4) {
+.filter-list:nth-child(-n + 4) {
   margin-right: 8px;
 }
 
@@ -335,7 +335,6 @@ a[href="tel:+380961111111"] {
   border-radius: 4px;
 }
 
-
 .all-ul {
   display: flex;
   flex-wrap: wrap;
@@ -344,7 +343,7 @@ a[href="tel:+380961111111"] {
   padding: 0;
 }
 
-.all-list:nth-child(-n+6){
+.all-list:nth-child(-n + 6) {
   margin-bottom: 30px;
 }
 
@@ -356,8 +355,8 @@ a[href="tel:+380961111111"] {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-primary);
-  border-left: 1px #EEE solid;
-  border-right: 1px #EEE solid;
+  border-left: 1px #eee solid;
+  border-right: 1px #eee solid;
 }
 
 .all-p {
@@ -366,9 +365,9 @@ a[href="tel:+380961111111"] {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-secondary);
-  border-right: 1px #EEE solid;
-  border-bottom: 1px #EEE solid;
-  border-left: 1px #EEE solid;
+  border-right: 1px #eee solid;
+  border-bottom: 1px #eee solid;
+  border-left: 1px #eee solid;
 }
 
 /* ========== portfolio.html main content styles end's here =========== */
