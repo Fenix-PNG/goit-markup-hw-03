@@ -299,7 +299,7 @@ a[href="tel:+380961111111"] {
 .filter-ul {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .filter-list:nth-child(-n + 4) {
@@ -342,27 +342,25 @@ a[href="tel:+380961111111"] {
   margin-bottom: 30px;
 }
 
+.all-sub {
+  padding: 20px 24px;
+  border-right: 1px #eee solid;
+  border-bottom: 1px #eee solid;
+  border-left: 1px #eee solid;
+}
 .all-header {
-  margin-top: 0px;
-  padding: 20px 24px 4px;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-primary);
-  border-left: 1px #eee solid;
-  border-right: 1px #eee solid;
 }
 
 .all-p {
-  padding: 0px 24px 20px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-secondary);
-  border-right: 1px #eee solid;
-  border-bottom: 1px #eee solid;
-  border-left: 1px #eee solid;
 }
 
 /* ========== portfolio.html main content styles end's here =========== */
