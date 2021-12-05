@@ -22,6 +22,8 @@
 }
 
 .container {
+  padding-right: 15px;
+  padding-left: 15px;
   width: 1200px;
   margin: 0 auto;
 }
@@ -138,7 +140,6 @@ a[href="tel:+380961111111"] {
   justify-content: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 94px;
   background-color: var(--background-color);
 }
 
@@ -179,10 +180,8 @@ a[href="tel:+380961111111"] {
 
 /* explain section */
 
-.explain {
-  display: flex;
-  justify-content: center;
-  padding: 94px 215px;
+.section.explain {
+  padding-top: 94px;
 }
 
 .explain-ul {
@@ -251,6 +250,13 @@ a[href="tel:+380961111111"] {
   display: flex;
 }
 
+.team-list {
+  width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-list:nth-child(-n + 3) {
   background-color: #fff;
   margin-right: 30px;
@@ -260,8 +266,12 @@ a[href="tel:+380961111111"] {
   background-color: #fff;
 }
 
+.team-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .team-sub-header {
-  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -270,8 +280,6 @@ a[href="tel:+380961111111"] {
 }
 
 .team-sub-p {
-  margin-top: 10px;
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -283,17 +291,8 @@ a[href="tel:+380961111111"] {
 
 /* ========== portfolio.html main content styles start's here =========== */
 
-.all-main {
-  display: flex;
-  justify-content: center;
+.section.all {
   padding-top: 94px;
-}
-
-.all {
-  margin: 94px 215px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .filter-ul {
